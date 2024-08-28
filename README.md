@@ -1,10 +1,12 @@
 # RobustCertaintyEncoding
 
-## This repository will contain sample code used to generate some figures and results in the paper entitled ``Robustly encoding certainty in a neural circuit model'' by Heather L Cihak and Zachary P Kilpatrick (submitted to...) with the abstract as follows below.
+## This repository contains sample code used to generate some figures and results in the paper entitled ``Robustly encoding certainty in a neural circuit model'' by Heather L Cihak and Zachary P Kilpatrick (citation/link to be incorporated) with the abstract as follows below.
 
 
-### ABSTRACT: Being finalized
-
+### ABSTRACT:
+Localized persistent neural activity can encode delayed estimates of continuous variables. Common experiments require that subjects store and report the feature value (e.g., orientation) of a particular cue (e.g., oriented bar on a screen) after a delay. Visualizing recorded activity of neurons along their feature tuning reveals activity bumps whose centers wander stochastically, degrading the estimate over time. 
+    Bump position therefore represents the remembered estimate. Recent work suggests bump amplitude may represent estimate certainty reflecting a probabilistic population code for a Bayesian posterior. Idealized models of this type are fragile due to the fine tuning common to constructed continuum attractors in dynamical systems. Here we propose an alternative metastable model for robustly supporting multiple bump amplitudes by extending neural circuit models to include quantized nonlinearities.
+    Asymptotic projections of circuit activity produce low-dimensional evolution equations for the amplitude and position of bump solutions in response to external stimuli and noise perturbations. Analysis of reduced equations accurately characterizes phase variance and the dynamics of amplitude transitions between stable discrete values. More salient cues generate bumps of higher amplitude which wander less, consistent with the experimental finding that greater certainty correlates with more accurate memories.
 
 ## Summary of files
 First drafts of the sample code used to generate figures is now posted along with txt files containing sample Monte Carlo simulation data.
